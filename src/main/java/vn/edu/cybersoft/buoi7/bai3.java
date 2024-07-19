@@ -24,7 +24,7 @@ public class bai3 {
     private static int sumEven(int n){
         int sum = 0; // [0, n]
         for (int i = 0; i < n+1; i ++){
-            if (utils.isEven(n)) sum++;
+            if (utils.isEven(i)) sum+=i;
         }
         return sum;
     }
