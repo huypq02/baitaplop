@@ -53,7 +53,7 @@ public class utils {
         // Using  for loop for iteration
         double min = list.get(0);
         for (int i = 1; i < list.size(); i++) {
-            if (min < list.get(i)){
+            if (min > list.get(i)){
                 min = list.get(i);
             }
         }

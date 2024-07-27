@@ -22,7 +22,7 @@ public class bai5 {
             list = utils.addDoubleTypeForElementList(n);
 
             System.out.printf("So lon nhat %2f\n", utils.maxElementInList(list));
-            System.out.printf("So lon nhat %2f\n", utils.minElementInList(list));
+            System.out.printf("So nho nhat %2f\n", utils.minElementInList(list));
         } catch (Exception e) {
             System.out.println("Something went wrong.");
         }
